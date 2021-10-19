@@ -1,4 +1,4 @@
-# flexbox
+# Flexbox
 ﻿
 
 flexbox란,
@@ -18,4 +18,4 @@ flexbox 가 없어도 가능한 작업이지만, 가변형 레이아웃에 미�
 2. responsive-grid.html - flexbox 를 사용하여 갤러리방식의 그리드레이아웃
 3. responsive-layout.html - flexbox로 반응형 레이아웃 만들기 
 
-==
+
