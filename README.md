@@ -1,5 +1,4 @@
 # flexbox
-Create a responsive layout with a flexbox.
 ﻿
 
 flexbox
