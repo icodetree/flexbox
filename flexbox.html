@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexbox</title>
+	<meta charset="utf-8" />	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+        h1 {font-size: 24px;font-weight: bold;text-align: center;padding:30px 0;font-family: arial;}
+        h2 {font-size: 14px;text-align: center;font-family: arial;padding-bottom: 30px;}
+
+        .header {text-align: center;padding: 32px;}
+
+        .container ul {
+            display: flex; 
+            flex-wrap : wrap;
+            align-items: center;
+            justify-content: center;
+            background-color: #d1d1d1;
+            height: 160px;
+        }
+        .container ul li {
+            width: 100px;
+            min-height: 100px;
+            display: flex; 
+            flex-wrap : wrap;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .container ul li:nth-child(1) {background-color: #2a80b9;}
+        .container ul li:nth-child(2) {background-color: #8f44ad;}
+        .container ul li:nth-child(3) {background-color: #16a086;}
+        .container ul li:nth-child(4) {background-color: #f1c40f;}
+        .container ul li:nth-child(5) {background-color: #e77e23;}
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>flexbox</h1>
+        <h2>Resize the browser window to see the responsive effect.</h2>
+    </div>
+
+    <div class="container">
+        <ul>
+            <li><p>BOX 1</p></li>
+            <li><p>BOX 2</p></li>
+            <li><p>BOX 3</p></li>
+            <li><p>BOX 4</p></li>
+            <li><p>BOX 5</p></li>
+        </ul>
+    </div>
+
+</body>
+</html>
